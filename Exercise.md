@@ -1,12 +1,12 @@
-Chú ý:
+## Chú ý:
 
 - Làm các bài tập, các folder (ở step 5, 6) với các thư mục tương ứng là BasicExercise, ArrayExercise, StringExercise, LinqExercise...
 
 - Mỗi bài tập tạo 1 pull request
 
-Các bước:
+## Các bước:
 
-1. Tạo repository:
+### 1. Tạo repository:
 
 Không có gì đặc biệt nhưng lúc chọn Gitignore thì nhớ chọn Visual Studio
 
@@ -14,7 +14,7 @@ Không có gì đặc biệt nhưng lúc chọn Gitignore thì nhớ chọn Visu
 
 Sau đó clone về máy
 
-2. Tạo project
+### 2. Tạo project
 
 Mở Visual Studio chọn New Project và chọn đúng project type là Class Library (Net Framework) và ngôn ngữ là C# như hình
 
@@ -30,7 +30,7 @@ Bấm Next, đặt tên cho Project (chẳng hạn ở đây là CSharpExercise)
 
 Sau đó bấm Create
 
-3. Tạo Test Project
+### 3. Tạo Test Project
 
 Right Click lên solution chọn New -> Project ->
 
@@ -44,7 +44,7 @@ Bấm Next, ở màn hình tiếp theo, đặt tên Project là dùng tên Proje
 
 ![Project](Imgs/project-6.png)
 
-4. Liên kết Project vào Test Project
+### 4. Liên kết Project vào Test Project
 
 Đảm bảo sau các bước trên, ta thấy được 2 project như thế này
 
@@ -60,7 +60,7 @@ Trong màn hình Refrence Manager, check chọn vào Project
 
 Xong rồi Done.
 
-5. Implement code
+### 5. Implement code
 
 Trong CSharpExercise right click chọn New Folder
 
@@ -95,7 +95,7 @@ Chú ý mặc định class được tạo ra lúc New Class không có từ kho
 
 ![Project](Imgs/14.png)
 
-6. Implement Test code
+### 6. Implement Test code
 
 Tương tự trên, tạo class tên là `Exercise01Test` trong thư mục `BasicExericseTest` trong tự án Test
 
@@ -134,7 +134,7 @@ Chú ý ở đây đảm bảo:
 
 ![Project](Imgs/16.png)
 
-7. Chạy UnitTest
+### 7. Chạy UnitTest
 
 Right click lên Test class để chạy tất cả các unit test method
 
